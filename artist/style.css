@@ -1,0 +1,21 @@
+h1{
+background:salmon;
+padding:45px;
+text-align: center;
+border: 20px dotted olive
+}
+
+img{
+    width: 100%;
+    opacity:0.1;
+    transition: all 1s;
+}
+
+img:hover{
+    opacity: 1;
+}
+
+p{
+    width: 100%;
+    padding: 15px;
+}
