@@ -1,13 +1,15 @@
 h1{
-background:salmon;
-padding:45px;
+background:rgb(255, 170, 0);
+padding: 45px;
 text-align: center;
-border: 20px dotted olive
+color: rgb(96, 7, 7);
+border: 2px dashed; 
+border-color: rgb(68, 46, 6);
 }
 
 img{
     width: 100%;
-    opacity:0.1;
+    opacity: 0.1;
     transition: all 1s;
 }
 
@@ -18,4 +20,28 @@ img:hover{
 p{
     width: 100%;
     padding: 15px;
+}
+
+h3{
+    text-align: center; color: orange;
+}
+p{
+    text-align: center;
+    color: blanchedalmond;
+    background: rgb(96, 7, 7);
+    padding: 15px;;
+}
+
+.iframe-container{
+    position: relative;
+    width: 100%;
+    padding-bottom: 56.25%;
+    height: 0;
+}
+.iframe-container iframe{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
 }
