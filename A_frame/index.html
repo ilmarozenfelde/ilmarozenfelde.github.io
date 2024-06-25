@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="./aframe.min.js"></script>
+</head>
+<body>
+    
+    <a-scene>
+
+        <a-assets>
+
+            <a-asset-item id="heart" src="./Foto_izstāde.glb"></a-asset-item>
+            <a-asset-item id="table-o" src="./64-table-model-1/table.obj"></a-asset-item>
+            <!-- <a-asset-item id="table-m" src="./64-table-model-1/"></a-asset-item> -->
+    
+        </a-assets>
+
+        <a-entity gltf-model="#heart"></a-entity>
+        <a-entity obj-model="obj: #table-o" scale="0.01 0.01 0.01" position="-7 -0.1 3"></a-entity>
+
+
+    </a-scene>
+
+</body>
+</html>
